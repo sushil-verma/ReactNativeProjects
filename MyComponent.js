@@ -6,6 +6,7 @@ import {Button,Text} from 'react-native'
 
 
 
+
 const MyComponent= () => {
   const Stack = createStackNavigator();
   return (
