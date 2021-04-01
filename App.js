@@ -104,7 +104,9 @@ export default function App() {
       isReadyRef.current = false
     };
   }, []);
+  
   return (
+    
     <NavigationContainer 
     ref={navigationRef} 
     onReady={() => {

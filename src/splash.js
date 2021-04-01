@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {Text,View} from 'react-native';
-import {navigate} from './Root';
+import {navigate} from './navigationfolder/Navigation';
 
 
 class Splash extends Component{
