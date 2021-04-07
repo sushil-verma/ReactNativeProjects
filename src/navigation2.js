@@ -1,15 +1,17 @@
 import React,{Component} from 'react';
-import { View } from 'react-native';
+import { Text, View } from 'react-native';
 
 
 
 class Navigation2 extends Component{
   render(){
     return (
-      <View></View>
+      <View>
+        <Text>Navigation Screen.</Text>
+      </View>
       );
   }
-}
+};
   
 export default Navigation2;
  

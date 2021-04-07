@@ -11,6 +11,8 @@ export function navigateToNavigation(){
     navigationRef.current?.navigate('Navigation2');
 }
 
-export function navigateToNavigation2(){
-    navigationRef.current?.dispatch(StackActions.replace('Navigation2'));
+export function navigateToNext(name){
+    // navigationRef.current?.dispatch(StackActions.replace('NavigationScreen')); 
+     navigationRef.current?.navigate(name);
+
 }
